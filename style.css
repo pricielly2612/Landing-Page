@@ -4,45 +4,96 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #000000;
+html {
+    scroll-behavior: smooth;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff5fa;
+    color: #333;
+}
+
+/* MENU */
+
 header {
-    background-color: #ea5b8d;
+    background: linear-gradient(135deg, #e8a4c9, #b89bd9);
     color: white;
-    padding: 20px;
+    padding: 25px;
     text-align: center;
 }
 
-nav {
-    margin-top: 15px;
+header h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 10px;
+    font-size: 18px;
+    margin: 0 12px;
+    transition: 0.3s;
 }
 
 nav a:hover {
-    color: #00aaff;
+    color: #ffe1f0;
 }
 
+/* CONTEÚDO */
+
 main {
-    padding: 40px 20px;
     max-width: 1000px;
     margin: auto;
 }
 
-h1 {
-    font-size: 40px;
-    margin-bottom: 15px;
+section {
+    min-height: 500px;
+    padding: 80px 30px;
+    text-align: center;
 }
 
-p {
+/* INÍCIO */
+
+#inicio {
+    background-color: #fff5fa;
+}
+
+#inicio h2 {
+    color: #c56fa5;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+/* SOBRE */
+
+#sobre {
+    background-color: #f5edff;
+}
+
+#sobre h2 {
+    color: #8d6bb8;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+/* CURIOSIDADES */
+
+#curiosidades {
+    background-color: #fff0f7;
+}
+
+#curiosidades h2 {
+    color: #c56fa5;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+/* TEXTOS */
+
+section p {
+    max-width: 700px;
+    margin: auto;
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 1.8;
 }
